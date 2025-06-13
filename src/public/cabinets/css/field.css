@@ -1,0 +1,17 @@
+/* Field Component */
+
+.field {
+  display: flex;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.field-title {
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-right: 0.3rem;
+}
+
+.field-value {
+  color: var(--text-color);
+}

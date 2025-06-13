@@ -1,0 +1,20 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  background-color: var(--light-gray);
+  border-radius: var(--border-radius);
+  padding: 0.3rem 0.6rem;
+  margin: 0.2rem;
+  box-shadow: var(--box-shadow);
+  font-size: 0.9rem;
+}
+
+.badge-title {
+  font-weight: 600;
+  color: var(--secondary-color);
+  margin-right: 0.3rem;
+}
+
+.badge-value {
+  color: var(--text-color);
+}

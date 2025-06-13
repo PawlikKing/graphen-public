@@ -1,0 +1,21 @@
+/* Switch Component */
+
+.switch {
+  background-color: white;
+  border-radius: var(--border-radius);
+  padding: var(--spacing-unit);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--medium-gray);
+}
+
+.switch-title {
+  color: var(--accent-color);
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.switch-ports {
+  color: var(--dark-gray);
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+}

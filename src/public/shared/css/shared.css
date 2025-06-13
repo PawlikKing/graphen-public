@@ -1,0 +1,91 @@
+/* Root Variables */
+:root {
+    --primary-color: #0084ff;
+    --primary-dark: #0069cc;
+    --secondary-color: #2c3e50;
+    --accent-color: #e74c3c;
+    --text-color: #333;
+    --text-light: #f8f9fa;
+    --light-gray: #f5f7fa;
+    --medium-gray: #dee2e6;
+    --dark-gray: #495057;
+    --bg-color: #f8f9fa;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --spacing-unit: 1rem;
+    --nav-height: 80px;
+    --max-width: 1400px;
+  }
+  
+  /* Base Styles */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    line-height: 1.2;
+  }
+  
+  /* Navigation */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    height: var(--nav-height);
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  
+  #main-title {
+    margin: 0;
+    font-size: 1.8rem;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    color: var(--text-light);
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Scrollbar Styles */
+  ::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+    height: var(--scrollbar-width);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: var(--light-gray);
+    border-radius: calc(var(--scrollbar-width) / 2);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: calc(var(--scrollbar-width) / 2);
+    border: 2px solid var(--light-gray);
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+  }
+  
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color) var(--light-gray);
+  }
