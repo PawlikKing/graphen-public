@@ -1,7 +1,6 @@
 # Graphen - Network Visualization App
 
 This tool offers a dynamic, interactive visualization of our corporate network topology, highlighting switches, patch panels, and their physical/logical connections.
-This tool offers a dynamic, interactive visualization of our corporate network topology, highlighting switches, patch panels, and their physical/logical connections.
 
 ## Prerequisites
 
